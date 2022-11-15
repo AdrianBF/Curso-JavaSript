@@ -1,4 +1,4 @@
-const gitExtension = vscode.extensions.getExtension<GitExtension>('vscode.git').exports;
+const gitExtension = vscode.extensions.getExtension<gitExtension>('vscode.git').exports;
 const git = gitExtension.getAPI(1);
 
 const ceviche = ['Pescado','Mariscos','Cebolla'];
