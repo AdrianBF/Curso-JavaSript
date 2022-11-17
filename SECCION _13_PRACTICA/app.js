@@ -116,3 +116,4 @@ document.querySelector('#libro-list').addEventListener('click', (e) => {
     Datos.removeLibro(e.target.parentElement.previousElementSibling.textContent);
     UI.mostrarAlerta('Libro eliminado','success');
 });
+
